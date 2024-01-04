@@ -1,0 +1,102 @@
+CSS Colors
+CSS Color property is used to set the color of HTML elements. This property is used to set font color, background color, etc. The color of an element can be defined in the following ways:
+
+Built-In Color
+RGB Format
+RGBA Format
+Hexadecimal Notation
+HSL
+HSLA
+Built-In Color: These are a set of predefined colors which are used by its name. For example: red, blue, green etc.
+
+Syntax:
+
+h1 {
+    color: color-name;
+}
+
+
+RGB Format: The RGB(Red, Green, Blue) format is used to define the color of an HTML element by specifying the R, G, B values range between 0 to 255. For example: RGB value of Red color is (255, 0, 0), Green color is (0, 255, 0), Blue color is (0, 0, 255) etc.
+
+Syntax:
+
+h1 {
+    color: rgb(R, G, B);
+}
+
+
+RGBA Format: The RGBA format is similar to the RGB, but the difference is RGBA contains A (Alpha) which specifies the transparency of elements. The value of alpha lies between 0.0 to 1.0 where 0.0. represents fully transparent and 1.0 represents not transparent.
+
+Syntax:
+
+h1 {
+    color:rgba(R, G, B, A);
+}
+
+
+
+Hexadecimal Notation: The hexadecimal notation begins with # symbol followed by 6 characters each ranging from 0 to F. For example: Red #FF0000, Green #00FF00, Blue #0000FF etc.
+
+Syntax:
+
+h1 {
+    color:#(0-F)(0-F)(0-F)(0-F)(0-F)(0-F);
+}
+
+HSL: HSL stands for Hue, Saturation, and Lightness respectively. This format uses the cylindrical coordinate system.
+
+Hue: Hue is the degree of the color wheel. Its value lies between 0 to 360 where 0 represents red, 120 represents green and 240 represents blue color.
+Saturation: It takes a percentage value, where 100% represents completely saturated, while 0% represents completely unsaturated (gray).
+Lightness: It takes percentage value, where 100% represents white, while 0% represents black.
+Syntax:
+
+h1 {
+    color:hsl(H, S, L);
+}
+
+
+HSLA:
+
+The HSLA color property is similar to HSL property, but the difference is HSLA contains A (Alpha) which specifies the transparency of elements. The value of alpha lies between 0.0 to 1.0 where 0.0. represents fully transparent and 1.0 represents not transparent.
+
+Syntax:
+
+h1 {
+    color:hsla(H, S, L, A);
+}
+
+
+Text Color: It is used to set the color of the text.
+
+Background Color: It is used to set the background color of an HTML element.
+
+Syntax:
+
+h1 {
+    background-color:color_name;
+}
+
+Border Color: It is used to set the border color of an element. Border-style is used to set the border type.
+
+Syntax:
+
+h1 {
+    border-style:solid/dashed/dotted
+    border-color:color_name;
+}
+
+List of Colors: Following is the list of a few CSS colors.
+
+Color Name	Hex(RGB)	Decimal(RGB)	Color
+Red	FF0000	255, 0, 0	 
+Pink	FFC0CB	255, 192, 203	 
+Orange	FFA500	255, 165, 0	 
+Yellow	FFFF00	255, 255, 0	 
+Violet	EE82EE	238, 130, 238	 
+Green	008000	0, 128, 0	 
+Aqua	00FFFF	0, 255, 255	 
+Blue	0000FF	0, 0, 255	 
+Brown	A52A2A	165, 42, 42	 
+White	FFFFFF	255, 255, 255	 
+Gray	808080	128, 128, 128	 
+Black	000000	0, 0, 0	 

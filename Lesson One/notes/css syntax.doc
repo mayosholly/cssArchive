@@ -1,0 +1,13 @@
+A CSS Syntax rule consists of a selector, property, and its value. The selector points to the HTML element where the CSS style is to be applied. The CSS property is separated by semicolons. It is a combination of the selector name followed by the property: value pair that is defined for the specific selector. 
+
+Syntax:
+
+selector { Property: value; }
+For instance, we have declared a heading tag(h1) along with having assigned some property: value pair that is used to style the heading tag. Here, h1 is the selector, { color: green; font-family: sans-serif; } is a declaration block and it can contain one or more declarations separated by semicolons, color: green; is a property: value pair that is applied to the HTML element in order to style them.
+
+Let’s define each of these :
+
+Declaration: A combination of a property and its corresponding value.
+Selector: Used to target and select specific HTML elements to apply styles to.
+Property: Defines the specific aspect or characteristic of an element that you want to modify.
+Value: Assigned setting or parameter for a given property, determining how the selected element should appear or behave.

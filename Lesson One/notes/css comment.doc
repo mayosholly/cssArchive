@@ -1,0 +1,12 @@
+CSS Comments
+
+
+The Comments in CSS, are the statements in your code that are ignored by the compiler and are not executed. Comments are used to explain the code. They make the program more readable and understandable.
+
+Syntax:
+
+/* content */
+Comments can be single-line or multi-line. The /* */ comment syntax can be used for both single and multiline comments. We may use <!– –> syntax for hiding in CSS for older browsers, but this is no longer recommended for use. Adding comments to the code is a good practice that can help to understand the code if someone reads the code or if it is reviewed later.
+
+Note: The outputs are the same because comments are ignored by the browser and are not interpreted.
+
